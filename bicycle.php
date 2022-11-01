@@ -97,7 +97,7 @@ echo "-- BICYCLE # 1 --" . "<br><br>";
 $myBike = new Bicycle();
 echo $myBike->describe();
 
-echo 'I am a ' . $myBike->getManufacturer() . ' bicycle with ' . $myBike->getNumGears() . 'gears. <br><br>';
+echo 'I am a ' . $myBike->getManufacturer() . ' bicycle with ' . $myBike->getNumGears() . ' gears. <br><br>';
 
 echo "-- BICYCLE # 2 --" . "<br><br>";
 $newBike = new Bicycle();
@@ -110,4 +110,4 @@ $newBike->setNumGears(24);
 $newBike->setModelYear(1974);
 echo $newBike->describe();
 
-echo 'I am ' . $newBike->getManufacturer() . '  a bicycle with ' . $newBike->getNumGears() . 'gears. <br><br>';
+echo 'I am ' . $newBike->getManufacturer() . '  a bicycle with ' . $newBike->getNumGears() . ' gears. <br><br>';
